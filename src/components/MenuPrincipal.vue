@@ -17,13 +17,10 @@
     <v-btn :to="'/contactanos'" class="uno" color="#EF5350">
     Contáctanos
     </v-btn>
-    <v-btn :to="'/slide'" class="uno" color="#EF5350">
-    slide
-    </v-btn>
   </v-app-bar>
-  <v-content>
+  <!-- <v-content> -->
 <router-view/>
-</v-content>
+<!-- </v-content> -->
 <!--  -->
 </v-app>
 </template>

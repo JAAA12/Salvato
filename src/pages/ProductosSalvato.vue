@@ -444,12 +444,12 @@ export default {
 .cuerpo{
     margin: 0;
     height: 1000px;
-    width: 1283px;
+    width: 1860px;
     font-family: georgia;
 }
 .encabezado{
     display: flex;
-    width: 1343px;
+    width: 1920px;
     background: #D0312D;
     padding:0;
     
@@ -497,7 +497,7 @@ a{
 h2{
    width: 1000px;
    height: 43.75px;
-   margin: 0 162px;
+   margin: 0 423px;
    font-size: 2.5rem;
 }
 .titulo1{
@@ -560,17 +560,17 @@ h2{
   background-color: #D0312D;
 }
 .card{
-    background-color: #f7d689;
-    padding: 20px;
+    margin: 20px;
+    border: 1px solid black
 }
 .row{
     display: flex;
-    margin: 20px 118px 20px 145px;
+    margin: 20px 118px 20px 410px;
 }
 /*carrusel*/ 
 
  .carrusel{
-    width: 1343px;
+    width: 1920px;
  }
 .carrusel-img{
     overflow: hidden;
@@ -584,8 +584,8 @@ h2{
 }
 
 .carrusel img{
-    width: 1343px;
-    height: 550px;   
+    width: 1920px;
+    height: 800px;   
 }
 
 
@@ -607,4 +607,6 @@ h2{
 git add .
 git commit -m "cualquier nombre"
 git remote add origin link
-git push -u origin master -->
+git push -u origin master 
+browser
+git clone link-->
