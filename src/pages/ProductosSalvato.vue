@@ -148,7 +148,7 @@
                         <img src="../assets/mogolla_cua.jpg" class="imagen-curso u-full-width">
                         <div class="info-card">
                             <h4>Mogollas de Cuajada</h4>
-                            <p>Harina de avena, integral, chía y linaza, con cuajada criolla en el centro.</p>
+                            <p>Harina de avena, integral, chía y linaza, con cuajada criolla.</p>
                             <img src="../assets/estrellas.png">
                             <p class="precio">Regular  <span class="u-pull-right ">$10000</span></p>
                             <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
@@ -175,7 +175,7 @@
                     <img src="../assets/pan_italianisimo.jpg" class="imagen-curso u-full-width">
                     <div class="info-card">
                         <h4>Pan Italianisimo</h4>
-                        <p>Rollo italiano con finas hiervas, queso parmesano, mozarella y queso crema.</p>
+                        <p>Rollo italiano con finas hiervas, queso parmesano, mozarella.</p>
                         <img src="../assets/estrellas.png">
                         <p class="precio">Regular <span class="u-pull-right ">$11000</span></p>
                         <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
@@ -187,7 +187,7 @@
                         <img src="../assets/Hawaiano.jpeg" class="imagen-curso u-full-width">
                         <div class="info-card">
                             <h4>Pan Hawaiano</h4>
-                            <p>Pan con semillas relleno de jamón de pavo, tocineta ahumada, piña y queso.</p>
+                            <p>Pan con semillas relleno de jamón de pavo, tocineta, piña y queso.</p>
                             <img src="../assets/estrellas.png">
                             <p class="precio">Regular  <span class="u-pull-right ">$14000</span></p>
                             <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
@@ -253,7 +253,7 @@
                     <img src="../assets/jarcake_amapola.jpg" class="imagen-curso u-full-width">
                     <div class="info-card">
                         <h4>Jarcakes de Amapola</h4>
-                        <p>Torta de amapola, nueces, arándanos, frosting de yogurt griego y limón.</p>
+                        <p>Torta amapola, nueces, arándanos, frosting de yogurt griego y limón.</p>
                         <img src="../assets/estrellas.png">
                         <p class="precio">Vidrio  <span class="u-pull-right ">$12000</span></p>
                         <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="17">Agregar Al Carrito</a>
@@ -316,7 +316,7 @@
                             <img src="../assets/jarcake_red.jpg" class="imagen-curso u-full-width">
                             <div class="info-card">
                                 <h4>Jarcake Tres Leches</h4>
-                                <p>Torta tres leches con semillas jjjjjjjj jjjjjjjjj.
+                                <p>Torta tres leches con semillas y arequipe.
                                 </p>
                                 <img src="../assets/estrellas.png">
                                 <p class="precio">Vidrio <span class="u-pull-right ">$12000</span></p>
@@ -356,7 +356,7 @@
                 <div class="card">
                     <img src="../assets/torta_chocolate.jpg" class="imagen-curso u-full-width">
                     <div class="info-card">
-                        <h4>Torta Fantasía de Chocolate</h4>
+                        <h4>Torta de Chocolate</h4>
                         <p>Para nuestras superheroínas</p>
                         <img src="../assets/estrellas.png">
                         <p class="precio">Regular  <span class="u-pull-right ">$25000</span></p>
@@ -433,6 +433,7 @@
 <script">
 export default {
   name: 'ProductosSalvato',
+
 }
 </script>
 
@@ -449,7 +450,7 @@ export default {
 }
 .encabezado{
     display: flex;
-    width: 1920px;
+    width: 1343px;
     background: #D0312D;
     padding:0;
     
@@ -497,7 +498,7 @@ a{
 h2{
    width: 1000px;
    height: 43.75px;
-   margin: 0 423px;
+   margin: 0 175px;
    font-size: 2.5rem;
 }
 .titulo1{
@@ -564,13 +565,13 @@ h2{
     border: 1px solid black
 }
 .row{
-    display: flex;
-    margin: 20px 118px 20px 410px;
+   display: flex;
+    margin: 20px 118px 20px 170px;
 }
 /*carrusel*/ 
 
  .carrusel{
-    width: 1920px;
+    width: 1343px;
  }
 .carrusel-img{
     overflow: hidden;
@@ -584,8 +585,8 @@ h2{
 }
 
 .carrusel img{
-    width: 1920px;
-    height: 800px;   
+    width: 1343px;
+    height: 543px;   
 }
 
 
@@ -601,6 +602,29 @@ h2{
 
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
+}
+
+@media (max-width: 1920px){
+    .encabezado{
+    width: 1920px;
+},
+.carrusel{
+    width: 1920px;
+ },
+ .carrusel img{
+    width: 1920px;
+    height: 800px;   
+},
+.row{
+   display: flex;
+    margin: 20px 118px 20px 410px;
+},
+h2{
+   width: 1000px;
+   height: 43.75px;
+   margin: 0 423px;
+   font-size: 2.5rem;
+}
 }
 </style>
 <!-- git init

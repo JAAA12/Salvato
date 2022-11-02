@@ -40,9 +40,9 @@
 
             <ul class="img-carrusel">
                 <li><img src="../assets/background2.jpg" alt="No cargó"></li>
-                <li><img src="../assets/background2.jpg" alt="No cargó"></li>
-                <li><img src="../assets/background2.jpg" alt="No cargó"></li>
-                <li><img src="../assets/background2.jpg" alt="No cargó"></li>
+                <li><img src="../assets/background3.png" alt="No cargó"></li>
+                <li><img src="../assets/background4.png" alt="No cargó"></li>
+                <li><img src="../assets/background5.png" alt="No cargó"></li>
             </ul>
 
         </div>
