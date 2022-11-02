@@ -39,10 +39,11 @@
 
             <ul class="img-carrusel">
                 <li><img src="../assets/background2.jpg" alt="No cargó"></li>
-                <li><img src="../assets/background2.jpg" alt="No cargó"></li>
-                <li><img src="../assets/background2.jpg" alt="No cargó"></li>
-                <li><img src="../assets/background2.jpg" alt="No cargó"></li>
+                <li><img src="../assets/diapo3.png" alt="No cargó"></li>
+                <li><img src="../assets/diapo2.png" alt="No cargó"></li>
+                <li><img src="../assets/diapo1.png" alt="No cargó"></li>
             </ul>
+
 
         </div>
    </div>
@@ -580,7 +581,7 @@ h2{
 .carrusel ul{
     display: flex;
     width: 4000cm;
-    animation: cambio 8s infinite;  
+    animation: cambio 15s infinite;  
     padding: 0
 }
 

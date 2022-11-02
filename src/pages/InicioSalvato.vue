@@ -38,12 +38,21 @@
    <div class='carrusel'>
     <div class="carrusel-img">
 
+<<<<<<< HEAD
             <ul class="img-carrusel">
                 <li><img src="../assets/background2.jpg" alt="No cargó"></li>
                 <li><img src="../assets/background3.png" alt="No cargó"></li>
                 <li><img src="../assets/background4.png" alt="No cargó"></li>
                 <li><img src="../assets/background5.png" alt="No cargó"></li>
             </ul>
+=======
+        <ul class="img-carrusel">
+            <li><img src="../assets/background2.jpg" alt="No cargó"></li>
+            <li><img src="../assets/diapo3.png" alt="No cargó"></li>
+            <li><img src="../assets/diapo2.png" alt="No cargó"></li>
+            <li><img src="../assets/diapo1.png" alt="No cargó"></li>
+        </ul>
+>>>>>>> 20de8a62b3ad123f3716c0602997a98f7c8da128
 
         </div>
    </div>
@@ -422,7 +431,7 @@ ul{
 }
 /*carrusel*/ 
 
- .carrusel{
+/* .carrusel{
     width: 1343px;
  }
 .carrusel-img{
@@ -437,7 +446,7 @@ ul{
 }
 
 .carrusel img{
-    width: 1343px;
+    width: 1200px;
     height: 550px;   
 }
 
@@ -455,6 +464,6 @@ ul{
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
-
+*/
 </style>
 <!--  -->
