@@ -15,7 +15,7 @@
     Nosotros
     </v-btn>
     <v-btn :to="'/contactanos'" class="uno" color="#EF5350">
-    Contáctanos
+    Ubicación
     </v-btn>
   </v-app-bar>
   <!-- <v-content> -->
