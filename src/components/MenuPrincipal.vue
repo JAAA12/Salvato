@@ -50,13 +50,7 @@
     font-family: georgia;
 }
 
-.encabezado{
-    display: flex;
-    width: 1343px;
-    background: #D0312D;
-    padding:0;
-    
-}
+
 
 .imglogo{
 width: 66.6px;

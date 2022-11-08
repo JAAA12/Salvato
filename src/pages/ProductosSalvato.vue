@@ -10,7 +10,7 @@
                             <img src="../assets/carro.png" id="img-carrito">
                             <div id="carro">
                                     
-                                    <table id="lista-carrito" class="carrito">
+                                    <table id="lista-carrito u-full-width" class="carrito">
                                         <thead>
                                             <tr>
                                                 <th>Imagen</th>
@@ -27,7 +27,7 @@
                                         </thead>
                                     </table>
 
-                                    <a href="#" id="vaciar-carrito" class="button">Vaciar Carrito</a>
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
                             </div>
                     </li>
                 </ul>
@@ -445,13 +445,13 @@ export default {
 <style>
 .cuerpo{
     margin: 0;
-    height: 1000px;
+    height: 1920px;
     width: 1860px;
     font-family: georgia;
 }
 .encabezado{
     display: flex;
-    width: 1343px;
+    width: 1920px;
     background: #D0312D;
     padding:0;
     
@@ -499,7 +499,7 @@ a{
 h2{
    width: 1000px;
    height: 43.75px;
-   margin: 0 175px;
+   margin: 0 423px;
    font-size: 2.5rem;
 }
 .titulo1{
@@ -567,12 +567,12 @@ h2{
 }
 .row{
    display: flex;
-    margin: 20px 118px 20px 170px;
+   margin: 20px 118px 20px 410px;
 }
 /*carrusel*/ 
 
  .carrusel{
-    width: 1343px;
+    width: 1920px;
  }
 .carrusel-img{
     overflow: hidden;
@@ -586,8 +586,8 @@ h2{
 }
 
 .carrusel img{
-    width: 1343px;
-    height: 543px;   
+    width: 1920px;
+    height: 800px;   
 }
 
 
@@ -605,27 +605,40 @@ h2{
     100% {margin-left: -300%;}
 }
 
-@media (max-width: 1920px){
+@media (min-width: 1920px){
     .encabezado{
-    width: 1920px;
+    width: 1343px;
 },
 .carrusel{
-    width: 1920px;
+    width: 1343px;
  },
  .carrusel img{
-    width: 1920px;
-    height: 800px;   
+    width: 1343px;
+    height: 543px;   
 },
 .row{
    display: flex;
-    margin: 20px 118px 20px 410px;
+   margin: 20px 118px 20px 170px;
 },
 h2{
    width: 1000px;
    height: 43.75px;
-   margin: 0 423px;
+   margin: 0 175px;
    font-size: 2.5rem;
 }
+
+/*Columnas*/
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
 }
 </style>
 <!-- git init
