@@ -28,6 +28,10 @@
      en nuestras preparaciones, contiene 70% de concentración , la opción ideal si quieres cuidar y a la vez disfrutar.</p>
      
     </div>
+
+    <h2 class="Dts"> Datos Empresa</h2>
+    <div class='datos'/>
+    <p class="datos empresariales"> Empresa: SALVATO,  Correo: salvato123@gmail.com,  Representante: Sebastián Blanco, Teléfono: 3125489630, Dirección: Carrera 35 Calle 35-35 Bucaramanga </p>  
     
   </div>
   </v-app>
@@ -37,7 +41,11 @@
 
 <script>
 export default {
-  name: 'NosotrosSalvato'
+  data(){
+    return{
+        valornumero:this.$store.state.nombreempresa
+    }
+  },
 }
 </script>
 
@@ -76,6 +84,11 @@ body{
 .parrafos{
   align-content: center;
   margin: 10px 480px  20px 460px;
+}
+.Dts{
+  align-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
 </style>
