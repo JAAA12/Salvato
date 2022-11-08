@@ -425,7 +425,7 @@
                 </div>
              </div>
   </div>
-  <h1>{{nombre}}</h1>
+                            <h1>{{nombre}}</h1>
                             <h1>{{correo}}</h1>
                             <h1>{{representante}}</h1>
                             <h1>{{telefono}}</h1>
