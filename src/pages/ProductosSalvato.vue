@@ -44,12 +44,13 @@
                 <li><img src="../assets/diapo1.png" alt="No cargó"></li>
             </ul>
 
-
+           
         </div>
    </div>
  <div id="lista-cursos" class="container">
         <h1 id="titulo1" class="titulo1">Nuestros Productos</h1>
         <H2>SALVATOS</H2>
+         
         <div class="row">
                     <div class="four columns">
                             <div class="card" id="salvatos">
@@ -58,6 +59,7 @@
                                     <h4>Salvato Clásico</h4>
                                     <p>Pan de banano con nuez, almendra laminada y chocolate troceado.
                                     </p>
+                                    <h1>{{valornumero}}</h1>
                                     <img src="../assets/estrellas.png">
                                     <p class="precio">Regular<span class="u-pull-right ">$17500</span></p>
                                     <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
@@ -431,9 +433,18 @@
 
 
 
-<script">
+<script>
 export default {
-  name: 'ProductosSalvato',
+  data(){
+    return{
+        valornumero:this.$store.state.nombre
+    }
+  },
+  computed:{
+    valorstore(){
+        return this.$store.state
+    }
+  }
 
 }
 </script>

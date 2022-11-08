@@ -282,7 +282,6 @@ export default {
 }
 
 
-
 .imglogo{
 width: 66.6px;
 height: 66.6px;
