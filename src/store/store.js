@@ -4,7 +4,10 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 export const store = new Vuex.Store({
     state:{
-        numero: 0,
-        nombre: 'luis'
+        nombreempresa: 'SALVATO',
+        correo: 'salvato123@gmail.com',
+        representante: 'Sebastián Blanco',
+        telefono: '3125489630',
+        direccion: 'cra35 calle 35-35 Bucaramanga'
     }
 })

@@ -437,7 +437,7 @@
 export default {
   data(){
     return{
-        valornumero:this.$store.state.nombre
+        valornumero:this.$store.state.nombreempresa
     }
   },
   computed:{
