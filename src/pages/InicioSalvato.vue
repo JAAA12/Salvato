@@ -426,6 +426,7 @@ ul{
     height:300px;
     width:400px;
 }
+
 /*carrusel*/ 
 
 /* .carrusel{
