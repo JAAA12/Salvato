@@ -143,7 +143,7 @@
         <div class="vuex">
         <h1>{{nombreempresa}}</h1>
         <p>{{correo}}</p>
-        <p>{{represante}}</p>
+        <p>{{representante}}</p>
         <p>{{telefono}}</p>
         <p>{{direccion}}</p>
         </div>
@@ -278,8 +278,11 @@ export default {
   name: 'InicioSalvato',
   data(){
     return {
-    nombreempresa:this.$store.state.nombreempresa
-   
+    nombreempresa:this.$store.state.nombreempresa,
+    correo:this.$store.state.correo,
+    representante:this.$store.state.representante,
+    telefono:this.$store.state.telefono,
+    direccion:this.$store.state.direccion,
     }
     }
 }
@@ -288,6 +291,11 @@ export default {
 
 <!-- arriba, derecha, abajo, izquierda -->
 <style>
+.vuex {
+    background-color:brown;
+    color:white;
+    text-align: center;
+}
 .inicio{
     margin: 0;
     height: 1000px;
