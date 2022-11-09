@@ -29,10 +29,13 @@
      
     </div>
 
-    <h2 class="Dts"> Datos Empresa</h2>
-    <div class='datos'/>
-    <p class="datos empresariales"> Empresa: SALVATO,  Correo: salvato123@gmail.com,  Representante: Sebastián Blanco, Teléfono: 3125489630, Dirección: Carrera 35 Calle 35-35 Bucaramanga </p>  
-    
+    <h1>{{nombreempresa}}</h1> 
+    <p>{{correo}}</p>
+    <p>{{representante}}</p>
+    <p>{{telefono}}</p>
+    <p>{{direccion}}</p>
+
+
   </div>
   </v-app>
 </template>
@@ -43,7 +46,11 @@
 export default {
   data(){
     return{
-        valornumero:this.$store.state.nombreempresa
+      nombreempresa:this.$store.state.nombreempresa,
+        correo:this.$store.state.correo,
+        representante:this.$store.state.representante,
+        telefono:this.$store.state.telefono,
+        direccion:this.$store.state.direccion,
     }
   },
 }

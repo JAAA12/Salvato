@@ -10,7 +10,5 @@ export const store = new Vuex.Store({
         representante: 'Sebastián Blanco',
         telefono: '3125489630',
         direccion: 'cra35 calle 35-35 Bucaramanga',
-        numero:1000,
-        nombre:"Laura Ayala"
     }
 })
