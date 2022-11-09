@@ -139,6 +139,14 @@
         <img src="../assets/holistica.png" alt="No cargó" class="dis">
         
         </div>
+
+        <div class="vuex">
+        <h1>{{nombreempresa}}</h1>
+        <p>{{correo}}</p>
+        <p>{{represante}}</p>
+        <p>{{telefono}}</p>
+        <p>{{direccion}}</p>
+        </div>
         <footer>
         
         </footer>
@@ -267,7 +275,13 @@ function limpiarhtmltotal(){
 
 <script>
 export default {
-  name: 'InicioSalvato'
+  name: 'InicioSalvato',
+  data(){
+    return {
+    nombreempresa:this.$store.state.nombreempresa
+   
+    }
+    }
 }
 
 </script>
