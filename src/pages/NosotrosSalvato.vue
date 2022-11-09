@@ -92,10 +92,14 @@ body{
   align-content: center;
   margin: 10px 480px  20px 460px;
 }
-.Dts{
-  align-content: center;
+h1{
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
+  color: rgb(133, 7, 7);
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  
 }
 
 </style>
