@@ -59,7 +59,6 @@
                                     <h4>Salvato Clásico</h4>
                                     <p>Pan de banano con nuez, almendra laminada y chocolate troceado.
                                     </p>
-                                    <h1>{{valornumero}}</h1>
                                     <img src="../assets/estrellas.png">
                                     <p class="precio">Regular<span class="u-pull-right ">$17500</span></p>
                                     <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
@@ -426,6 +425,11 @@
                 </div>
              </div>
   </div>
+                            <h1>{{nombreempresa}}</h1>
+                            <h1>{{correo}}</h1>
+                            <h1>{{representante}}</h1>
+                            <h1>{{telefono}}</h1>
+                            <h1>{{direccion}}</h1>
 </div>
 </v-app>
 
@@ -437,7 +441,11 @@
 export default {
   data(){
     return{
-        valornumero:this.$store.state.nombreempresa
+        nombreempresa:this.$store.state.nombreempresa,
+        correo:this.$store.state.correo,
+        representante:this.$store.state.representante,
+        telefono:this.$store.state.telefono,
+        direccion:this.$store.state.direccion,
     }
   },
   computed:{
@@ -456,13 +464,13 @@ export default {
 <style>
 .cuerpo{
     margin: 0;
-    height: 1920px;
+    height: 100%;
     width: 1860px;
     font-family: georgia;
 }
 .encabezado{
     display: flex;
-    width: 1920px;
+    width: 100%;
     background: #D0312D;
     padding:0;
     
@@ -583,7 +591,7 @@ h2{
 /*carrusel*/ 
 
  .carrusel{
-    width: 1920px;
+    width: 100%;
  }
 .carrusel-img{
     overflow: hidden;
@@ -597,7 +605,7 @@ h2{
 }
 
 .carrusel img{
-    width: 1920px;
+    max-width: 100%;
     height: 800px;   
 }
 
@@ -616,7 +624,7 @@ h2{
     100% {margin-left: -300%;}
 }
 
-@media (min-width: 1920px){
+@media (min-width: 1343px){
     .encabezado{
     width: 1343px;
 },
