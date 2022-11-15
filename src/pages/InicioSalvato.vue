@@ -141,11 +141,11 @@
         </div>
 
         <div class="vuex">
-        <h1>{{nombreempresa}}</h1>
-        <p>{{correo}}</p>
-        <p>{{representante}}</p>
-        <p>{{telefono}}</p>
-        <p>{{direccion}}</p>
+        <h1 class="info1">{{nombreempresa}}</h1>
+        <p class="info2" >{{correo}}</p>
+        <p class="info3">{{representante}}</p>
+        <p class="info4">{{telefono}}</p>
+        <p class="info5">{{direccion}}</p>
         </div>
         <footer>
         
@@ -293,8 +293,11 @@ export default {
 <style>
 .vuex {
     background-color:brown;
-    color:white;
     text-align: center;
+}
+.info1, .info2, .info3,.info4,.info5{
+    color:white;
+    font-family:georgia;
 }
 .inicio{
     margin: 0;
@@ -332,10 +335,10 @@ ul{
 }
 /*barra*/
 .barra{
-    background: #b57c00; /* Old browsers */
-    background: -moz-linear-gradient(left, #b57c00 0%,#ecaa0f9f 50%, #ecab0f 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #b57c00 0%,#ecaa0f9f 50%,#ecab0f 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #b57c00 0%,#ecaa0f9f 100%,#ecab0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #f18d22; /* Old browsers */
+    background: -moz-linear-gradient(left, #f18d22 0%,#f18d22 50%, #ecab0f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f18d22 0%,#f18d22 50%,#ecab0f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f18d22 0%,#f18d22 100%,#ecab0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b57c00', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
     display: flex;
     width:1343px;

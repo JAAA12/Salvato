@@ -471,7 +471,7 @@ export default {
 .encabezado{
     display: flex;
     width: 100%;
-    background: #D0312D;
+    background: #f18d22;
     padding:0;
     
 }
@@ -563,8 +563,9 @@ h2{
     margin: 10px 0 10px 20px;
     padding: 0 30px 0 30px;
     display: inline-block;
+    text-decoration: none;
   height: 38px;
-     color: black;
+     color: white;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -575,10 +576,10 @@ h2{
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #D0312D;
+  border: 1px solid #8f0c07;
   cursor: pointer;
   box-sizing: border-box;
-  background-color: #D0312D;
+  background-color: #8f0c07;
 }
 .card{
     margin: 20px;
@@ -627,18 +628,18 @@ h2{
 @media (min-width: 1343px){
     .encabezado{
     width: 1343px;
-},
+}
 .carrusel{
     width: 1343px;
- },
+ }
  .carrusel img{
     width: 1343px;
     height: 543px;   
-},
+}
 .row{
    display: flex;
    margin: 20px 118px 20px 170px;
-},
+}
 h2{
    width: 1000px;
    height: 43.75px;
