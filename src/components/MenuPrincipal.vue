@@ -17,6 +17,9 @@
     <v-btn :to="'/contactanos'" class="white--text" color="#8f0c07">
     Ubicación
     </v-btn>
+    <v-btn :to="'/login'" class="white--text" color="#8f0c07">
+    login
+    </v-btn>
   </div>
   </v-app-bar>
   <!-- <v-content> -->

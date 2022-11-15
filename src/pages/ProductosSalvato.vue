@@ -425,11 +425,13 @@
                 </div>
              </div>
   </div>
+  <div class="store">
                             <h1>{{nombreempresa}}</h1>
-                            <h1>{{correo}}</h1>
-                            <h1>{{representante}}</h1>
-                            <h1>{{telefono}}</h1>
-                            <h1>{{direccion}}</h1>
+                            <p>{{correo}}</p>
+                            <p>{{representante}}</p>
+                            <p>{{telefono}}</p>
+                            <p>{{direccion}}</p>
+  </div>
 </div>
 </v-app>
 
@@ -465,7 +467,7 @@ export default {
 .cuerpo{
     margin: 0;
     height: 100%;
-    width: 1860px;
+    width: 100%;
     font-family: georgia;
 }
 .encabezado{
@@ -480,6 +482,21 @@ width: 66.6px;
 height: 66.6px;
 margin-left: 80px;
 }
+/*store*/
+
+.store{
+    text-align: center;
+    background: #8f0c07;
+}
+.store h1{
+    color: black;
+}
+.store p{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
 /*Carrito*/
 .offset-by-two.column,
   .offset-by-two.columns          { margin-left: 17.3333333333%; }
@@ -560,8 +577,8 @@ h2{
   font-weight: bold;
 }
 .button{
-    margin: 10px 0 10px 20px;
-    padding: 0 30px 0 30px;
+    /*margin: 10px 0 10px 20px;
+    padding: 0 30px 0 30px;*/
     display: inline-block;
     text-decoration: none;
   height: 38px;
