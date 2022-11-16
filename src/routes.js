@@ -2,6 +2,7 @@ import inicio from './pages/InicioSalvato'
 import productos from './pages/ProductosSalvato'
 import nosotros from './pages/NosotrosSalvato'
 import contactanos from './pages/ContactanosSalvato'
+import login from './pages/LoginRegistro'
 
 
 export const routes = [
@@ -9,4 +10,5 @@ export const routes = [
     {path:'/productos', component:productos}, /* components para que se comporte como un componente */
     {path:'/nosotros', component:nosotros},
     {path:'/contactanos', component:contactanos},
+    {path:'/login', component:login}
 ]

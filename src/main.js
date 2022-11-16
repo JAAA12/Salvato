@@ -5,12 +5,16 @@ import VueRouter from 'vue-router'
 import {routes} from './routes'
 import {store} from './store/store'
 import { BootstrapVue, IconsPlugin } from  'bootstrap-vue'
+import Axios from 'axios'
+import VueAxios from 'vue-axios'
+
 
 Vue.use(VueRouter);
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 // Opcionalmente, instale el complemento de componentes de iconos de BootstrapVue 
 Vue.use (IconsPlugin)
+Vue.use(VueAxios, Axios)
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -25,3 +29,4 @@ new Vue({
   render: h => h(App),
   router
 }).$mount('#app')
+
