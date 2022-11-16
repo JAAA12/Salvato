@@ -18,7 +18,7 @@
   export default {
     setup(){
       const personas = ref ([])
-      axios.get('https://vueinventarioaxios-98a37-default-rtdb.firebaseio.com/persona.json')
+      axios.get('https://vuesalvatoaxios-default-rtdb.firebaseio.com/persona.json')
       .then(res => {
         console.log(res)
         for(const id in res.data){

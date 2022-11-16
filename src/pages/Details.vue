@@ -36,7 +36,7 @@
         const index = route.params.index;
         /* return store.getters.getPersona(index);
       }) */
-      axios.get('https://vueinventarioaxios-98a37-default-rtdb.firebaseio.com/persona/'+index+'.json')
+      axios.get('https://vuesalvatoaxios-default-rtdb.firebaseio.com/'+index+'.json')
       .then(res => {
         console.log(res)
         persona.value = res.data

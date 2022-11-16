@@ -76,7 +76,7 @@
           }
           /* store.dispatch("addPersona", persona);
           router.push('/print') */
-          axios.post('https://vueinventarioaxios-98a37-default-rtdb.firebaseio.com/persona.json',persona)
+          axios.post('https://vuesalvatoaxios-default-rtdb.firebaseio.com/persona.json',persona)
           .then(res => console.log(res))
           .catch(error => console.log (error))
   
