@@ -20,6 +20,10 @@
     <v-btn :to="'/login'" class="white--text" color="#8f0c07">
     login
     </v-btn>
+    <v-btn :to="'/Añadir'" class="white--text" color="#8f0c07">
+      Añadir Clientes
+      </v-btn>
+
   </div>
   </v-app-bar>
   <!-- <v-content> -->
